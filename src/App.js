@@ -10,8 +10,6 @@ function App() {
     <Route path='/' element={<Landingpage/>}/>
     <Route path='/admin-login' element={<AdminLogin/>}/>
     <Route path='/user-login' element={<UserLogin/>}/>
-
-
    </Routes>
    </BrowserRouter>
   );
