@@ -17,10 +17,10 @@ let data={
   pin:pin,
 }
 if(data.name=="admin@gmail.com"&&data.pin==12345){
-    nevigator('/adminportal')
+    nevigator('/admin/')
 }
 else{
-alert("wrong details")
+alert("wrong credentials")
 }
   }
 
