@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import '../styles/adminlog.css'
 import{Navigate, useNavigate,useLocation} from 'react-router-dom'
 import larrow from "../assets/arrow.png"
+import adminport from "../assets/adminport.png"
 
 
 export const AdminLogin = () => {
@@ -35,7 +36,7 @@ alert("wrong credentials")
   return (
     <div className='AdminLogin'>
       <div className='arim' onClick={()=>nevigator("/")}><img src={larrow} alt="" /></div>
-
+           <img style={{position:"relative",right:"100px"}} src={adminport} alt="" />
       <form onSubmit={submitHandler} className="log">
       <div >
         <input type="text" value={user} onChange={nameHandler} placeholder='username...' /> <br />

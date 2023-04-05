@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/AdminNavbar.css'
 import { Link,to } from 'react-router-dom'
+import user from "../assets/user.png"
 
 export const AdminNavbar = () => {
   return (
@@ -8,6 +9,7 @@ export const AdminNavbar = () => {
         <div className="uptext">
          <Link to="/admin/">Admin</Link>  
            <br />
+           <img width="48" height="50" style={{marginLeft:"90px"}} src={user} alt="" />
            admin@gmail.com
         </div>
         <div className="lis">
