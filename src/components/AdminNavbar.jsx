@@ -6,17 +6,18 @@ export const AdminNavbar = () => {
   return (
     <div className='AdminNavbar'>
         <div className="uptext">
-           Admin <br />
+         <Link to="/admin/">Admin</Link>  
+           <br />
            admin@gmail.com
         </div>
         <div className="lis">
-         <Link>BookList</Link>
-         <Link>Adduser</Link>
-         <Link>UserList</Link>
-         <Link>Addbooks</Link>
+         <Link to="/admin/adduser">Adduser</Link>  
+         <Link to="/admin/addbooks">Addbooks</Link>
+         <Link to="/admin/booklist">BookList</Link>
+         <Link to="/admin/userlist">UserList</Link>
         </div>
         <div className="logout">
-            <Link>Logout</Link>
+            <Link to="/">Logout</Link>
         </div>
     </div>
   )
