@@ -1,0 +1,49 @@
+.booklist{
+    margin-top: 30px;
+    position: absolute;
+    left: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+    background-color: white;
+}
+   
+
+.imgbookcard{
+    width:360px;
+    height: 350px;
+    border-radius: 12px;
+}
+.imgbookcard:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.4s;
+}
+.bookcard{
+    position: relative;
+    text-align: left;
+    margin:20px 4px;
+     border-radius: 12px;
+    background-color: rgba(105, 105, 105, 0.356);
+     box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.614);
+    width: 560px;
+    display: flex;
+}
+.readbtn{
+    position: absolute;
+    top: 240px;
+    z-index: 1;
+    width: 140px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+}
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+

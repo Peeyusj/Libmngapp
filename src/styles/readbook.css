@@ -1,0 +1,32 @@
+.readbook{
+    
+    position: absolute;
+    left: 220px;
+    top: 0px;
+    background-color: rgba(105, 105, 105, 0.356);
+    height: 100vh;
+
+    
+}
+.text{
+    text-align: start;
+    margin-top: 30px;
+    width: 97%;
+    margin-left: 20px;
+}
+.belowbtn{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 140px;
+    height: 40px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 9px rgba(86, 18, 149, 0.409);
+    color: white;
+    border-radius: 8px;
+    width: 155px;
+    font-size: 15px;
+}
+button{
+    outline: none;
+    border: none;
+}

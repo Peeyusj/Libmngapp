@@ -1,0 +1,26 @@
+.usercontainer{
+        margin-top: 30px;
+        position: absolute;
+        left: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around ;
+        align-items: center;
+        background-color: white;
+}
+
+.userss{
+
+    border-radius: 7px;
+    background-color: rgba(105, 105, 105, 0.356);
+    box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.614);
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.userss div:hover{
+    background-color: rgba(105, 105, 105, 0.571);
+    cursor: pointer;
+
+}
