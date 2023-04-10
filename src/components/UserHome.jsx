@@ -6,7 +6,7 @@ import bimg from '../assets/resume.jpg'
 import ra from '../assets/right-arrow.png'
 import menu from '../assets/menu.png'
 import vln from '../assets/Volnter.jpg'
-import Vidcrsl from './Vidcrsl'
+// import Vidcrsl from './Vidcrsl'
 
 export const UserHome = (props) => {
   const [disp, setDisp] = useState(false)
@@ -101,14 +101,14 @@ export const UserHome = (props) => {
           </div>
         </div>
       </div>
-      <div className="slider">
+      {/* <div className="slider">
         <h1>2023 Business Books To Read</h1>
         <Vidcrsl />
         <div className='btnanim' id='btnanimB'>
           <div className='readmo'><span></span><div className='lmo'>Take a look</div> </div>
           <div className='aran' ><img src={ra} alt="" /></div>
         </div>
-      </div>
+      </div> */}
       <div className="greenbanner">
         <div>Michael Embry</div>
         <div>I don’t have to look far to find treasures. I discover them every time I visit a library.</div>

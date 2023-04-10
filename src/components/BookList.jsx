@@ -1,8 +1,17 @@
 import React,{useEffect,useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link,useLocation,useNavigate } from 'react-router-dom'
 import '../styles/booklist.css'
 export const BookList = () => {
+let loc=useLocation()
+let nevigator=useNavigate();
+let readbtn=(id)=>{
+if(loc=='/admin/booklist'){
+nevigator(`/admin/booklist/${id}`)
+}
+else{
+  nevigator(`/user/booklist/${id}`)
 
+}}
   const [books,setBooks]=useState([])
   useEffect(()=>{
     let fetchdata= async()=>{
@@ -29,8 +38,9 @@ alert("deleted sucsess")
           {item.author!=='Unknown'&&<div className="auth" style={{fontSize:"12px"}}><span style={{fontSize:"16px"}}>Author: </span>{item.author}</div>}
           <div className="pageno"><span style={{fontWeight:"500"}}>Pages: </span>{item.pages}</div>
           <div className="lang"><span style={{fontWeight:"500"}}>Languages: </span>{item.language}</div>
-          <Link to={`/admin/booklist/${item.id}`}><button className='readbtn'>ReadMore</button></Link>
-          <button  onClick={()=>delebook(item.id)}>Remove</button>
+          <button onClick={()=>readbtn(item.id)} className='readbtn'>ReadMore</button>
+
+          {loc.pathname=='/admin/booklist'&&<button  onClick={()=>delebook(item.id)}>Remove</button>}
         </div>
       </div>
       

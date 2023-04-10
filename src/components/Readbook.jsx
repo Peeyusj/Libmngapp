@@ -5,6 +5,7 @@ export const Readbook = () => {
     let navi=useNavigate();
 const [dataob,setDataOb]=useState({})
 let params=useParams()
+console.log(params);
 useEffect(()=>{
     let fetchdata= async()=>{
         let response=await fetch(`http://localhost:4001/books/${params.id}`)
