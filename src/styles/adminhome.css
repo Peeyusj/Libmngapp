@@ -5,8 +5,9 @@
     background-color: transparent;
     position: absolute;
     left: 0px;
-    width:100% ;
+    width:85% ;
     min-height: 100vh;
+    margin-left: 220px;
 }
 .nav1{
     position: fixed;
@@ -130,9 +131,8 @@ width: 60%;
     }
 }
 .btnanim{
-
-    top: 110px;
-    left: 895px;
+    top: 68px;
+    left: 736px;
     position: relative;
     height: 40px;
     width: 180px;
@@ -183,8 +183,8 @@ object-fit: cover;
 }
 #btnanimid{
     position: relative;
-    left: 744px;
-    top: 132px;
+    left: 607px;
+    top: 89px;
 }
 #btnanimid img{
     margin-top: 22px;
@@ -263,8 +263,8 @@ border-bottom: 2px solid #019875 ;
     }
     #btnanimidA{
         position: relative;
-        left: 744px;
-        top: 132px;
+        left: 607px;
+    top: 132px;
     }
     #btnanimidA img{
         margin-top: 22px;
@@ -317,8 +317,8 @@ border-bottom: 2px solid #019875 ;
     }
 #btnanimB{
     
-    left: 529px;
-    top: 57px;
+    left: 439px;
+    top: 36px;
 
 }
 #btnanimB:hover span{
@@ -395,9 +395,8 @@ height: 100%;
     font-weight: 500;
 }
 .b1 #btnanimC{
-    
-    top: 63px;
-    left: 140px;
+    top:35px;
+    left:100px;
 
 }
 .b1 #btnanimC .readmo{
@@ -418,7 +417,7 @@ height: 100%;
 }
 .b2 #btnanimC{
     top: 38px;
-    left: 140px;
+    left: 106px;
     }
 #btnanimC:hover span{
     background-color: #4a4a4a69;
@@ -442,7 +441,7 @@ height: 100%;
 }
 .greenback #btnanimD {
     top: 38px;
-    left: 377px;
+    left: 292px;
     }
     .greenback #btnanimD{
         width: 300px;

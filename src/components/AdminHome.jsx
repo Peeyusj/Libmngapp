@@ -17,7 +17,7 @@ export const AdminHome = (props) => {
   return (
     <div className='adminhome1'>
       <div className="nav1">
-        <img className='menuimg' onClick={clickhandler} src={menu} alt="" />
+        {/* <img className='menuimg' onClick={clickhandler} src={menu} alt="" /> */}
         Admin Dashboard...
       </div>
       <div className="imgtop" style={{ backgroundImage: `url(${topimg})` }}>

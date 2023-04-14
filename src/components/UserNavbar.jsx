@@ -6,32 +6,32 @@ import group from "../assets/group.png"
 
 export const UserNavbar = (props) => {
     const navu =useRef()
-      console.log(props.dispval);
-     useEffect(()=>{
-      if(props.loc=="/admin/"||props.loc=="/user/"){
-        navu.current.style.display="none";
-      }
-      if(props.dispval&&(props.loc==="/admin/"||props.loc=="/user/")){
-        navu.current.style.display="flex";
-        navu.current.style.top = '60px';
-        // navu.current.style.transitionDuration="1s"
-      }
-      else{
-        navu.current.style.top = '0px';
-      }
-      let handler = (e) => {
-        if (!navu.current.contains(e.target)&&(props.loc==="/admin/"||props.loc=="/user/")) {
-          navu.current.style.display = "none";
-        }
-        else{
-        navu.current.style.display="flex";
-        }
-      };
-      document.addEventListener("mousedown", handler);
-      return () => {
-        document.removeEventListener("mousedown", handler);
-      };
-     },[props.loc,props.dispval])
+      // console.log(props.dispval);
+    //  useEffect(()=>{
+    //   if(props.loc=="/admin/"||props.loc=="/user/"){
+    //     navu.current.style.display="none";
+    //   }
+    //   if(props.dispval&&(props.loc==="/admin/"||props.loc=="/user/")){
+    //     navu.current.style.display="flex";
+    //     navu.current.style.top = '60px';
+        
+    //   }
+    //   else{
+    //     navu.current.style.top = '0px';
+    //   }
+    //   let handler = (e) => {
+    //     if (!navu.current.contains(e.target)&&(props.loc==="/admin/"||props.loc=="/user/")) {
+    //       navu.current.style.display = "none";
+    //     }
+    //     else{
+    //     navu.current.style.display="flex";
+    //     }
+    //   };
+    //   document.addEventListener("mousedown", handler);
+    //   return () => {
+    //     document.removeEventListener("mousedown", handler);
+    //   };
+    //  },[props.loc,props.dispval])
     
       
       return (

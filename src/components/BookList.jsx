@@ -10,7 +10,6 @@ nevigator(`/admin/booklist/${id}`)
 }
 else{
   nevigator(`/user/booklist/${id}`)
-
 }}
   const [books,setBooks]=useState([])
   useEffect(()=>{
@@ -40,7 +39,7 @@ alert("deleted sucsess")
           <div className="lang"><span style={{fontWeight:"500"}}>Languages: </span>{item.language}</div>
           <button onClick={()=>readbtn(item.id)} className='readbtn'>ReadMore</button>
 
-          {loc.pathname=='/admin/booklist'&&<button  onClick={()=>delebook(item.id)}>Remove</button>}
+          {loc.pathname=='/admin/booklist'&&<button style={{borderRadius:"8px"}} onClick={()=>delebook(item.id)}>Remove</button>}
         </div>
       </div>
       
