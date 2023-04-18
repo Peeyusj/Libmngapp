@@ -37,14 +37,14 @@ export const UserNavbar = (props) => {
       return (
         <div className='AdminNavbar' ref={navu}>
             <div className="uptext">
-             <Link to={props.loc==="/admin/"?`/admin/`:'/user/'}>username</Link>  
+             <Link to="/user/">username</Link>  
                <br />
                <img width="48" height="50" style={{marginLeft:"90px"}} src={props.loc=="/user/"?group:user} alt="" />
                useremail@id
             </div>
             <div className="lis">
     
-             <Link to={props.loc==="/admin/"?`"/admin/booklist"`:'/user/booklist'}>BookList</Link>
+             <Link to='/user/booklist'>BookList</Link>
             
             </div>
             <div className="logout">

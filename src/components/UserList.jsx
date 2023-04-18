@@ -4,7 +4,7 @@ export const UserList = () => {
   const [user,setUserList]=useState([])
   useEffect(()=>{
     let fetchdata= async()=>{
-      let response=await fetch("http://localhost:4001/users")
+      let response=await fetch("https://libdata.onrender.com/users")
       let data=await response.json()
       setUserList(data)
       console.log(user);

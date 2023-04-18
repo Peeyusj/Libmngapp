@@ -101,14 +101,14 @@ export const AdminHome = (props) => {
           </div>
         </div>
       </div>
-      <div className="slider">
+      {/* <div className="slider">
         <h1>2023 Business Books To Read</h1>
         <Vidcrsl />
         <div className='btnanim' id='btnanimB'>
           <div className='readmo'><span></span><div className='lmo'>Take a look</div> </div>
           <div className='aran' ><img src={ra} alt="" /></div>
         </div>
-      </div>
+      </div> */}
       <div className="greenbanner">
         <div>Michael Embry</div>
         <div>I don’t have to look far to find treasures. I discover them every time I visit a library.</div>

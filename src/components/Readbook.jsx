@@ -8,7 +8,7 @@ let params=useParams()
 console.log(params);
 useEffect(()=>{
     let fetchdata= async()=>{
-        let response=await fetch(`http://localhost:4001/books/${params.id}`)
+        let response=await fetch(`https://libdata.onrender.com/books/${params.id}`)
         let data=await response.json()
        setDataOb({...data})
       }

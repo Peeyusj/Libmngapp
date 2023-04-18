@@ -14,14 +14,14 @@ else{
   const [books,setBooks]=useState([])
   useEffect(()=>{
     let fetchdata= async()=>{
-      let response=await fetch("http://localhost:4001/books")
+      let response=await fetch("https://libdata.onrender.com/books")
       let data=await response.json()
       setBooks(data)
     }
 fetchdata()
   })
   let delebook=(id)=>{
-fetch(`http://localhost:4001/books/${id}`,{method:'DELETE'})
+fetch(`https://libdata.onrender.com/books/${id}`,{method:'DELETE'})
 alert("deleted sucsess")
   }
   return (

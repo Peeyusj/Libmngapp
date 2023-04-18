@@ -38,7 +38,7 @@ export const AdminNavbar = (props) => {
   return (
     <div className='AdminNavbar' ref={navu}>
         <div className="uptext">
-         <Link to={props.loc==="/admin/"?`/admin/`:'/user/'}>Admin</Link>  
+         <Link to="/admin/">Admin</Link>  
            <br />
            <img width="48" height="50" style={{marginLeft:"90px"}} src={props.loc=="/user/"?group:user} alt="" />
            admin@gmail.com
