@@ -48,7 +48,7 @@ export const UserNavbar = (props) => {
             
             </div>
             <div className="logout">
-                <Link to="/">Logout</Link>
+                <Link to="/Libmngapp">Logout</Link>
             </div>
         </div>
       )

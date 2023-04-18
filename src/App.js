@@ -10,12 +10,11 @@ function App() {
     <div className='App'>
       <BrowserRouter>
    <Routes>
-    <Route path='/' element={<Landingpage/>}/>
+    <Route path='/Libmngapp' element={<Landingpage/>}/>
     <Route path='/admin-login' element={<AdminLogin/>}/>
     <Route path='/user-login' element={<UserLogin/>}/>
     <Route path='/admin/*' element={<Adminportal/>}/>
     <Route path='/user/*' element={<Userportal/>}/>
-
 
    </Routes>
    </BrowserRouter>

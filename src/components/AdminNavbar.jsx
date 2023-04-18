@@ -50,7 +50,7 @@ export const AdminNavbar = (props) => {
          <Link to="/admin/userlist">UserList</Link>
         </div>
         <div className="logout">
-            <Link to="/">Logout</Link>
+            <Link to="/Libmngapp">Logout</Link>
         </div>
     </div>
   )

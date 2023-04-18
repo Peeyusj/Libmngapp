@@ -35,7 +35,7 @@ alert("wrong credentials")
   
   return (
     <div className='AdminLogin'>
-      <div className='arim' onClick={()=>nevigator("/")}><img src={larrow} alt="" /></div>
+      <div className='arim' onClick={()=>nevigator("/Libmngapp")}><img src={larrow} alt="" /></div>
            <img style={{position:"relative",right:"100px"}} src={adminport} alt="" />
       <form onSubmit={submitHandler} className="log">
       <div >
