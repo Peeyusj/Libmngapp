@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Libmngapp/static/css/main.15e12cd3.css",
+    "main.js": "/Libmngapp/static/js/main.5fe93b3a.js",
+    "static/js/787.0df741c8.chunk.js": "/Libmngapp/static/js/787.0df741c8.chunk.js",
+    "static/media/Volnter.jpg": "/Libmngapp/static/media/Volnter.a1a297b81aba00c5b2e2.jpg",
+    "static/media/Books.jpg": "/Libmngapp/static/media/Books.d98196c3ffe4a6d5043d.jpg",
+    "static/media/resume.jpg": "/Libmngapp/static/media/resume.205e61547bc7b78529ad.jpg",
+    "static/media/landingpageimg.png": "/Libmngapp/static/media/landingpageimg.c8f4ca071fca17bd7355.png",
+    "static/media/userimg.png": "/Libmngapp/static/media/userimg.c40c59c320d0cf2ddddc.png",
+    "static/media/adminport.png": "/Libmngapp/static/media/adminport.4a1d030cfe87d5e9b6f3.png",
+    "static/media/Pattern.png": "/Libmngapp/static/media/Pattern.87591bd832f9bb07d439.png",
+    "static/media/user.png": "/Libmngapp/static/media/user.36c7cfd93db57c765c3e.png",
+    "static/media/group.png": "/Libmngapp/static/media/group.e5cb3c5eb890b0f37932.png",
+    "index.html": "/Libmngapp/index.html",
+    "main.15e12cd3.css.map": "/Libmngapp/static/css/main.15e12cd3.css.map",
+    "main.5fe93b3a.js.map": "/Libmngapp/static/js/main.5fe93b3a.js.map",
+    "787.0df741c8.chunk.js.map": "/Libmngapp/static/js/787.0df741c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15e12cd3.css",
+    "static/js/main.5fe93b3a.js"
+  ]
+}
