@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Libmngapp/static/css/main.15e12cd3.css",
-    "main.js": "/Libmngapp/static/js/main.5fe93b3a.js",
+    "main.js": "/Libmngapp/static/js/main.e2ab6655.js",
     "static/js/787.0df741c8.chunk.js": "/Libmngapp/static/js/787.0df741c8.chunk.js",
     "static/media/Volnter.jpg": "/Libmngapp/static/media/Volnter.a1a297b81aba00c5b2e2.jpg",
     "static/media/Books.jpg": "/Libmngapp/static/media/Books.d98196c3ffe4a6d5043d.jpg",
@@ -14,11 +14,11 @@
     "static/media/group.png": "/Libmngapp/static/media/group.e5cb3c5eb890b0f37932.png",
     "index.html": "/Libmngapp/index.html",
     "main.15e12cd3.css.map": "/Libmngapp/static/css/main.15e12cd3.css.map",
-    "main.5fe93b3a.js.map": "/Libmngapp/static/js/main.5fe93b3a.js.map",
+    "main.e2ab6655.js.map": "/Libmngapp/static/js/main.e2ab6655.js.map",
     "787.0df741c8.chunk.js.map": "/Libmngapp/static/js/787.0df741c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15e12cd3.css",
-    "static/js/main.5fe93b3a.js"
+    "static/js/main.e2ab6655.js"
   ]
 }
